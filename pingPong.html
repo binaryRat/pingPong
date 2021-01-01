@@ -3,16 +3,34 @@
 <html>
 
     <head>
-
+        <title>Game</title>
+        <link rel="icon" href="favicon.png">
+        <link rel="stylesheet" type="text/css" href="style.css">
         <script src="main.js"></script>
-
     </head>
 
     <body >
 
-        <button id="button_offline" onclick="start_offline()">Offline</button>
-
-        <button id="button_online" onclick="start_online()">Online</button>
+        <nav class="nav_bar"> 
+            <ul>
+                <li>
+                    <a class="nav_button" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="nav_button" href="pingPong.html">Game</a>
+                </li>
+            </ul>
+        </nav>
+        <main class="main">
+            <section>
+                <button id="button_offline" onclick="start_offline()">Offline</button>
+                <button id="button_online" onclick="start_online()">Online</button>
+        
+            </section>
+        </main>
+        <footer>
+    
+        </footer>
 
     </body>
 

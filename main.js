@@ -221,7 +221,7 @@ function start_online(){
     setInterval(function(){
         xhttp.open("GET", "update", true);
         xhttp.send();
-    },1000)
+    },500)
     document.onkeydown = function(event){
         var down = 0,up = 0;
         switch(event.key){
